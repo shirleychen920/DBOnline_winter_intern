@@ -19,3 +19,48 @@
 	opacity: 0.5;
 	z-index: 1;
 }
+
+.menu {
+  background: #ADD8E6;
+  left: 0px;  
+  height: 100%;
+  position: fixed;
+  width: 250px;
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: sans-serif;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 3px;
+}
+
+.menu a {
+  color: #191970;
+  display:  block;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.menu-icon {
+  color: #736d92;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  text-transform: uppercase;
+}
+
+.menu-icon i {
+  color: #736d92;
+  margin-right: 5px;
+}
