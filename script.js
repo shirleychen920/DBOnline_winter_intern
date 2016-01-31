@@ -1,3 +1,7 @@
 $(document).ready(function() {
-  // Your Javascript code here
+	$('.menu-icon').click(function() {
+	$('.menu').animate({left: '0px'});
+	$('.bars').animate({left: '0px'});
+	});
+	
 });
