@@ -7,7 +7,7 @@
 	width: 100%;
 	text-align: center;
 	padding: 30px;
-	position: absolute;
+	position: relative;
 	z-index: 2;
 
 	
@@ -26,28 +26,33 @@
   height: 100%;
   position: fixed;
   width: 250px;
+  z-index: 4;
 }
 
 .menu ul {
-  border-top: 1px solid #636366;
+
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-left: auto;
+
+
 }
 
 .menu li {
   border-bottom: 1px solid #636366;
-  font-family: sans-serif;
-  padding-left: 20px;
-  padding-top: 12px;
-  padding-bottom: 3px;
+  font-family: Impact;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  text-align: left;
+
 }
 
 .menu a {
   color: #191970;
   display:  block;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .menu-icon {
@@ -58,6 +63,7 @@
   padding-bottom: 25px;
   padding-left: 25px;
   text-transform: uppercase;
+  z-index: 3;
 }
 
 .menu-icon i {
