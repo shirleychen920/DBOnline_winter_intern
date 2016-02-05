@@ -17,6 +17,25 @@ $('.menu-button').click(function() {
 
 });
 
+$('.menu').click(function(){      
+	$('.menu').animate({left: '-250px'});
+	// 
+	 $('#cover-image').animate({left: '0px' });
+	
+	 $('#title').animate({
+            left: '0px' });
+
+
+	  $('#intro').animate({
+            left: '0px' });
+
+	   $('#pic1').animate({
+            left: '0px' });
+	    $('#pic2').animate({
+            left: '0px' });
+
+});
+
 $('#close-tab').click(function(){
 
 
