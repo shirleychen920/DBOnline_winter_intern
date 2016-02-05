@@ -5,40 +5,61 @@
   <meta charset='UTF-8' />
   <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.css' rel='stylesheet' type='text/css' />
   <link href='style.css' rel='stylesheet' type='text/css' />
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js'></script>
+  <script src='script.js'></script>
 </head>
 
 
 
-<body>
+<body id="jumbo">
 	<div class ='menu'>
-  		<ul>
-  			<li><a href='#' id="close-tab">close</li>
-  			<li><a href='#'>About</a></li>
-  			<li><a href='#'>Dancers</a></li>
-  			<li><a href='#'>Pictures</a></li>
-  		</ul>
+    <ul>
+     <li><a href='#' id="close-tab"><img src="close-icon.png" /></li>
+     <li><a href='#'>About</a></li>
+     <li><a href='#'>Dancers</a></li>
+     <li><a href='#'>Pictures</a></li>
+   </ul>
   </div>
-  
-  	<div class ='menu-icon'>
-  		<i class='bars'>Menu</i>
-  	</div>	
-  
-  
-	<div class="row">
-		<div class="large-12 columns">
-			<h1 id="title">CSSA-MODERN</h1>
-		</div>
-	</div>
+
+  <div class ='menu-button'>
+   <h3>MENU</h3>
+  </div>	
+
+
+
   <div class="row">
-		<div class="large-12 columns">
-			<img id="cover-image" src="cover_img.JPG">
-		</div>
+   
+    <div class="medium-12 columns" id="title">
+       <h1>CSSA-MODERN</h1>
+    </div>
+
+
+    <div class="medium-12 columns" id="cover-image">
+        <img src="cover_img.JPG" />
+    </div>
+
+
+    <div class="medium-12 columns" id='intro'>
+       <p> Founded in early 2015, CSSA Modern, a newborn hip pop dance group of passionate beginners, is giving a sincere debut, hip pop dance remix, in CSSA’s New Year Gala. At the flourishing spring of the New Year, everyone is celebrating happily under the positive energy of youth, we as young teenagers set the best wishes for the future, strive for our dreams and enjoy our golden age, leaving the sorrow and regret of the old year behind. With new choreography, CSSA Modern will show you the vitality and zest of youth, imbue you with fervent love and jubilance, and give you homelike comfort and coziness through our original dancing.</p>
+    </div>
+
+
+
+
+    <div class="small-6 columns" id="pic1">
+      <img src="pic1.JPG"/>
+    </div>
+
+    <div class="small-6 columns" id="pic2">
+      <img src="pic2.jpeg"/>
+    </div>
+
+
   </div>
-	
 
 
   <!-- Put your HTML here! -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js'></script>
-  <script src='script.js'></script>
+  
+
 </body>
 </html>
